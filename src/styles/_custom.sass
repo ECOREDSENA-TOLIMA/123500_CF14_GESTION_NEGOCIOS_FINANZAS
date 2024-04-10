@@ -2,13 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 25%
+    right: 25%
+    width: 240px
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 20%
 
 
 @keyframes float1
@@ -16,3 +18,52 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.cajon.color-secundario
+  background: #DBE5F3
+
+.linea-tiempo-d__item__content
+  background: #FEF5E5
+.tabs-c__content-item
+  background: #FEF5E5
+
+// .fondo-1
+//   background-image: url("../assets/curso/temas/fondo.svg") !important
+//   background-size: cover
+//   background-repeat: no-repeat
+
+
+.tarjeta.tarjeta--azul
+  background: linear-gradient(0deg,#E3ECF7, #E1EFE3)
+  background-repeat: no-repeat
+  background-size: cover
+
+  .bn
+    .slyder-a__bullets__item
+      position: relative
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-top: 3rem !important
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+
+.slyder-a__bullets__item
+  background-color: $color-secundario
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+
+  

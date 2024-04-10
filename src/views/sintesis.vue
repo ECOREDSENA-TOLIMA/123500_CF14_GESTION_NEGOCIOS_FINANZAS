@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") Hasta este punto, hemos evidenciado como en el mercado es el dinamismo de la economía y da vida a las organizaciones, por ser una actividad económica innovadora o una empresa en marcha, cotidianamente se debe recurrir a este tipo de investigación para mantenerse a la vanguardia de las tendencias y cambios tecnológicos que exige el mercado. Es por ello que se invita a apreciar el siguiente esquema en el que se resume la temática abordada:
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo: 'Estudio del mercado y su segmentación',
+    descripcionCurso:
+      'Este componente es un estudio del mercado como el dinamizador de la economía y da vida a las organizaciones, por ser una actividad económica innovadora o una empresa en marcha, cotidianamente se debe recurrir a este tipo de investigación para mantenerse a la vanguardia de las tendencias y cambios tecnológicos que exige el mercado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,28 +32,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Estudio de mercado',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Objetivos',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Variables de análisis',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Instrumentos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Segmentación',
+            hash: 't_1_4',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,28 +105,125 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '1.2 Variables de Análisis',
+      referencia:
+        'Benítez, A. Guamán, B. Maza, R. & Solís, G. (2020). Importancia del branding para consolidar el posicionamiento de una marca corporativa. Universidad Layca Eloy Alfaro de Manabí. Ecuador.',
+      tipo: 'Articulo',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7847135',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.2 Variables de Análisis',
+      referencia:
+        'Alzate, A. Carvajal, L. & Ceballos, Y. (2017). Simulación de la experiencia del cliente en puntos de atención de un sistema de transporte masivo empleando Dinámica de Sistemas. Revista Entre Ciencia e Ingeniería. Volumen NO. 11. Universidad de Antioquia.',
+      tipo: 'Articulo',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1909-83672017000100073',
+    },
+    {
+      tema: '1.2 Variables de Análisis',
+      referencia:
+        'El viaje del Cliente. (2022). Customer experience o Experiencia de Cliente. Guía para aplicarlo a tu empresa.',
+      tipo: 'Articulo',
+      link:
+        'https://elviajedelcliente.com/academia/customer-experience-experiencia-cliente/',
+    },
+    {
+      tema: '1.2 Variables de Análisis',
+      referencia:
+        'Olamendi, G. (2012). Diccionario de marketing ¿Qué es el Branding? Madrid: CECSA.',
+      tipo: 'Articulo',
+      link: 'https://citysem.es/que-es/branding/',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: '<i>Branding</i>',
+      significado:
+        'Es una herramienta del <i>marketing</i> que funciona como una planificación estratégica que comprende de forma general la creación, manejo, posicionamiento y funcionamiento de una marca.',
+    },
+    {
+      termino: 'B2B',
+      significado:
+        'Modelo de negocio que consiste en los servicios que una compañía entrega a otra con el objetivo de mejorar las ventas',
+    },
+    {
+      termino: 'B2C',
+      significado:
+        'Significa de modelo de negocio a consumidor, es un tipo de práctica existente en el ámbito del <i>marketing</i>.',
+    },
+    {
+      termino: 'Capacidad Instalada',
+      significado:
+        'Es el potencial de producción o volumen máximo de producción que una empresa en particular, unidad, departamento o sección; puede lograr durante un período de tiempo determinado, teniendo en cuenta todos los recursos que tienen disponibles, sea los equipos de producción, instalaciones, recursos humanos, tecnología, experiencia/conocimientos, etc.',
+    },
+    {
+      termino: 'Capacidad Instalada Ociosa',
+      significado:
+        'Es producida por la reducción de la producción, cuando hay situaciones de recesión o de crisis el porcentaje de la capacidad instalada utilizada tiende a disminuir, aumentando la capacidad ociosa, es decir, cuando no se está optimizando la capacidad productiva en planta.',
+    },
+    {
+      termino: 'Cuota de Mercado',
+      significado:
+        'Distribución del consumo entre los diferentes consumidores del negocio. Conocida también como posición en el mercado.',
+    },
+    {
+      termino: 'Experiencia del Cliente',
+      significado:
+        'Es la percepción que un cliente tiene de todas las interacciones o contacto que mantiene con una marca.',
+    },
+    {
+      termino: 'Grado de Satisfacción',
+      significado:
+        'Grado de cumplimiento de las expectativas de un cliente al recibir un producto o servicio.',
+    },
+    {
+      termino: 'Investigación de Mercado',
+      significado:
+        'Técnica que sirve para recopilar datos de cualquier aspecto que se desee conocer para después poder interpretarlos y al final hacer uso de ellos para una correcta toma de decisiones.',
+    },
+    {
+      termino: '<i>Retail</i>',
+      significado: 'Se caracteriza por vender al por menor o por unidad.',
+    },
+    {
+      termino: 'Segmentación',
+      significado:
+        'Es la clasificación que se realiza a la población o mercado objetivo con el fin de identificar los clientes que comparten unas como nicho de mercado basado en variables edad, sexo, nivel económico, ubicación geográfica.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Arias, J. (2020). Técnicas e Instrumentos de Investigación Científica. Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC). Enfoques Consulting EIRL. Perú.',
+      link: 'http://repositorio.concytec.gob.pe/handle/20.500.12390/2238',
+    },
+    {
+      referencia:
+        'Fernández. F. (2021). Guía para la Elaboración de un Estudio de Mercado.',
+      link:
+        'https://books.google.com.co/books?hl=es&lr=&id=yuskDwAAQBAJ&oi=fnd&pg=PA4&dq=Estudio+de+Mercado&ots=fHthfex6JZ&sig=AvwQtB19NklFQM9kQipISj5VpVQ&redir_esc=y#v=onepage&q=Estudio%20de%20Mercado&f=false',
+    },
+    {
+      referencia:
+        'Observatorio Económico Social UNR. (2015). Utilización de la Capacidad Instalada en la Industria.',
+      link:
+        'https://observatorio.unr.edu.ar/utilizacion-de-la-capacidad-instalada-en-la-industria-2/',
+    },
+    {
+      referencia:
+        'Prieto Herrera, J. E. (2009). Investigación de Mercados. Ecoe Ediciones.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69104',
+    },
+    {
+      referencia: 'Questionpro. (s.f.). ¿Qué es un análisis de mercado?',
+      link: 'https://www.questionpro.com/blog/es/analisis-de-mercado/',
+    },
+    {
+      referencia:
+        'Sapag, N, Sapag, R & Sapag, J. (2008). Preparación y Evaluación de Proyectos (6ª Edición). Universidad de Chile.',
+      link:
+        'http://repositorio.uasb.edu.bo:8080/bitstream/54000/1243/1/Sapag-proyectos%206ta%20edici%C3%B3n.pdf',
     },
   ],
   creditos: [
@@ -146,9 +246,37 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Abel Fernando Becerra Carrillo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseño y evaluadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Asesoría metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -156,18 +284,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sebastian Trujillo Afanador',
+          cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -176,17 +309,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
