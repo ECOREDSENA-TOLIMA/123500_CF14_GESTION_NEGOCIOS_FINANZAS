@@ -18,24 +18,38 @@
             br
     p.mb-5(data-aos="fade-left") En el estudio de mercado se definen muchos costos de operación, si se prevé desde este momento, a través de la simulación de la situación futura, determinando las políticas y los procedimientos a utilizar como estrategia comercial. Se plantea desde este enfoque porque hay aspectos que se quedan fuera del análisis general en el estudio de mercado y al llegar a la puesta en marcha de éste se encontrarán los vacíos que se han dejado y que harán mella en la ejecución presupuestal, estos aspectos son:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-3.col-md-7.col-8
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/2.svg' alt='Imagen decoractiva')
-      .col-lg-3.col-md-6.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
-          h4.text-center(style="color: #ffff") La estrategia publicitaria
-        .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
-          h4.text-center(style="color: #ffff") La estrategia de promoción
-        .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
-          h4.text-center(style="color: #ffff") La política de distribución del producto
-      .col-lg-6.col-md-6.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
-          p La cual tiene una fuerte repercusión en la inversión.
-        .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
-          p Antes de la puesta en marcha.
-        .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
-          p Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
+      .col-lg-8.col-md-6.col-6
+        .row.justify-content-center.mb-0
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #2F3D6A")
+            h4 La estrategia publicitaria
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #E1EFE3")
+            p La cual tiene una fuerte repercusión en la inversión.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #2F3D6A")
+            h4 La estrategia de promoción
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #E1EFE3")
+            p Antes de la puesta en marcha.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #2F3D6A")
+            h4 La política de distribución del producto
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #E1EFE3")
+            p Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
+          
+      //-   .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
+      //-     h4.text-center(style="color: #ffff") La estrategia publicitaria
+      //-   .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
+      //-     h4.text-center(style="color: #ffff") La estrategia de promoción
+      //-   .tarjeta.p-3.mb-3(style="background-color: #2F3D6A")
+      //-     h4.text-center(style="color: #ffff") La política de distribución del producto
+      //- .col-lg-6.col-md-6.col-6
+      //-   .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
+      //-     p La cual tiene una fuerte repercusión en la inversión.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
+      //-     p Antes de la puesta en marcha.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #E1EFE3")
+      //-     p Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
     .row.justify-content-center.mb-3
       p(data-aos="fade-left") Lo anterior, especialmente en la relación entre oferta y demanda, debido a que la inclusión de un distribuidor adicional repercutirá en el precio del producto y en el margen que le corresponde al distribuidor, influyendo nuevamente en el presupuesto.
       p(data-aos="fade-left") Estos componentes son en la mayoría de los casos considerados secundarios, sumado a determinar el precio de introducción, definir el tipo de inversiones que aporten en consolidar su imagen, el establecimiento de las políticas de ventas a crédito, la adecuación de la locación o punto de venta de acuerdo con los requerimientos y expectativas de los clientes potenciales, todo esto en correspondencia con las recomendaciones arrojadas que se constituyen en factores decisivos para el resultado de la evaluación. De esta manera, se evidencia la trascendencia que tiene este estudio el cual encabeza el estudio de viabilidad económica en su fase de formulación y preparación, tal como se evidencia en la siguiente tabla:
@@ -553,32 +567,57 @@
     p.mb-5(data-aos="fade-left") De acuerdo con las estrategias de precios, es importante reconocer los diferentes tipos de precios:
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-md-4.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
-          h4.text-center(style="color: #ffff") Precio de Venta basado en costos: 
-        .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
-          h4.text-center(style="color: #ffff") Precio de Venta basado en la demanda: 
-        .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
-          h4.text-center(style="color: #ffff") Precio de Venta basado en la competencia: 
-      .col-lg-7.col-md-8.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
-          p Define el precio de venta a partir de los costos de producción o comercialización teniendo en cuenta factores como la calidad, la exclusividad, entre otros.
-        .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
-          p Intervienen factores como el segmento de mercado, su reputación o estatus, así como el de la marca brindando confianza al consumidor.
-        .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
-          p Definido a partir del precio de venta de los competidores o del mercado.
+      .col-lg-10.col-12
+        .row.justify-content-center.mb-0
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Precio de Venta basado en costos: 
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Define el precio de venta a partir de los costos de producción o comercialización teniendo en cuenta factores como la calidad, la exclusividad, entre otros.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Precio de Venta basado en la demanda: 
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Intervienen factores como el segmento de mercado, su reputación o estatus, así como el de la marca brindando confianza al consumidor.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Precio de Venta basado en la competencia: 
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Definido a partir del precio de venta de los competidores o del mercado.
+          
+      //-   .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
+      //-     h4.text-center(style="color: #ffff") Precio de Venta basado en costos: 
+      //-   .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
+      //-     h4.text-center(style="color: #ffff") Precio de Venta basado en la demanda: 
+      //-   .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
+      //-     h4.text-center(style="color: #ffff") Precio de Venta basado en la competencia: 
+      //- .col-lg-7.col-md-8.col-6
+      //-   .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
+      //-     p Define el precio de venta a partir de los costos de producción o comercialización teniendo en cuenta factores como la calidad, la exclusividad, entre otros.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
+      //-     p Intervienen factores como el segmento de mercado, su reputación o estatus, así como el de la marca brindando confianza al consumidor.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
+      //-     p Definido a partir del precio de venta de los competidores o del mercado.
+    
     p.mb-5(data-aos="data") Según el volumen también se definen los siguientes precios de venta:
+    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-md-4.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
-          h4.text-center(style="color: #ffff") Al por mayor:
-        .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
-          h4.text-center(style="color: #ffff") Al por menor: 
-      .col-lg-7.col-md-8.col-6
-        .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
-          p Es el precio de comercialización que asumen los minoristas para adquirir grandes cantidades de producto y luego vendar la mercancía por unidades a un mayor precio.
-        .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
-          p Es el precio que cancela el consumidor final en los establecimientos minoristas por una o varias unidades de producto.
+      .col-lg-10.col-md-4.col-6
+        .row.justify-content-center.mb-0
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Precio de Venta basado en costos: 
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Define el precio de venta a partir de los costos de producción o comercialización teniendo en cuenta factores como la calidad, la exclusividad, entre otros.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Precio de Venta basado en la demanda: 
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Intervienen factores como el segmento de mercado, su reputación o estatus, así como el de la marca brindando confianza al consumidor.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
+      //-     h4.text-center(style="color: #ffff") Al por mayor:
+      //-   .tarjeta.p-3.mb-3(style="background-color: #0C5E46")
+      //-     h4.text-center(style="color: #ffff") Al por menor: 
+      //- .col-lg-7.col-md-8.col-6
+      //-   .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
+      //-     p Es el precio de comercialización que asumen los minoristas para adquirir grandes cantidades de producto y luego vendar la mercancía por unidades a un mayor precio.
+      //-   .tarjeta.p-3.mb-3(style="background-color: #D2E1F1")
+      //-     p Es el precio que cancela el consumidor final en los establecimientos minoristas por una o varias unidades de producto.
     p(data-aos="fade-left") Analizados los factores de marca y establecida la estrategia de precios, se diseñan las estrategias de distribución, promoción y publicidad, y la estrategia misma del producto, que son fundamentales en los estudios de mercado de la información que de ellos se alcance, dependerá la inversión de los socios de una empresa. Después de planteada la estrategia de precios, se pasa a organizar los siguientes procesos, conocidos como la estrategia de distribución, promoción y publicidad y estrategia de producto:
     
     .tarjeta.tarjeta--azul.mb-5(data-aos="zoom-in-up")
@@ -847,6 +886,806 @@
         figure.movil(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/62.svg' alt='PENDIENTE TEXTO ALT')
     
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Mercado competidor directo 
+    
+    .row.justify-content-center 
+      .col-lg-8.col-12
+        p(data-aos="fade-left") Comprendido por las organizaciones que comercializan productos con alto grado de semejanza a los ofertados por el proyecto, así como su táctica o estrategia comercial, también es necesario reconocer las tácticas de comercialización y canales utilizados por la competencia en cuanto al consumidor. 
+        .cajon.p-4.mb-3(style="background-color: #E1EFE3")
+          p Cada experiencia que se identifique es de vital importancia para la definición de la estrategia comercial propia, entre los antecedentes es muy favorable identificar precio de venta, políticas de ventas y crédito, política de descuento por pronto pago, la política de promoción y publicidad, situación financiera, estrategias implementadas como nivel de integración vertical, alianzas estratégicas y el holding al cual pertenecen, facilitará la determinación las variables para el proyecto.
+      .col-lg-4.col-md-8.col-10
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/63.png', alt='Imagen decorativa')
+
+    p(data-aos="fade-left") En definitiva, el objeto de estudiar la competencia es conocer contra quienes se compite, sus fortalezas y debilidades organizacionales con el fin de encontrar un elemento que pueda servir de oportunidad o favorable para el proyecto y se realiza analizando el precio, la calidad de los productos, los canales de distribución, la manera en que los da a conocer, los valores agregados o servicios extra que ofrece.
+    p(data-aos="fade-left") Retomando las estrategias de la fase de distribución del producto, encontramos las fases conocidas como estudio de mercado distribuidor y mercado consumidor.
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Estudio de mercado distribuidor
+
+    .row.justify-content-center.mb-4
+      .col-lg-6.col-12
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/64.png', alt='Imagen decorativa')
+      .col-lg-6.col-md-8.col-10
+        p(data-aos="fade-left") El estudio del mercado distribuidor es un aspecto estratégico especialmente si tienen una gran cobertura geográfica o cuando se orienta a una amplia gama de segmentos dispersos geográficamente. 
+        p(data-aos="fade-left") Este estudio es de gran relevancia ya que a partir de aquí se debe definir de acuerdo al tipo de producto y segmento identificado los canales de distribución y es donde el proyecto deberá definir si se lanza a las grandes cadenas de retail, donde el proveedor pierde el control de las condiciones del mercado y debe asumir costos de incorporación, cancelación de publicidad al canal, entrega gratuita de productos, pago de tarifas por el uso de ubicaciones privilegiadas dentro del canal, premios por cumplimiento de metas de venta, mayores plazos de pago, restricciones al uso de factoring con terceros, costos que inciden en la rentabilidad especialmente cuando la posición dominante de los operadores del retail ha contribuido a que las condiciones económicas para el proveedor del canal sean más desfavorables y lo que motiva a que el proveedor deba buscar estrategias de distribución mixtas que no encarezcan el precio del producto o por el contrario incrementan los costos de ventas.
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Estudio de mercado consumidor
+    p.mb-4(data-aos="fade-left") El estudio del mercado consumidor debe concentrarse en conocer los gustos, deseos y necesidades de cada individuo o cliente potencial los cuales deben ser agrupados de acuerdo con los criterios del tipo de consumidor que se estudie. Al respecto, hay dos grandes agrupaciones: 
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/65.svg', alt='Imagen decorativa')
+          
+        h2.text-center a) Consumidor Institucional
+        p Este consumidor se identifica por administrar racionalmente los recursos por tanto toma decisiones basado en las especificaciones técnicas del producto y de acuerdo con su calidad, precio, oportunidad en la entrega y disponibilidad de repuestos.
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/66.svg', alt='Imagen decorativa')
+          
+        h2.text-center b) Consumidor Individual
+        p Este consumidor realiza sus compras basado en consideraciones de carácter emocional, como la moda, exclusividad del producto, prestigio de la marca. 
+
+    .row.justify-content-center.mb-4
+      p(data-aos="fade-left") Este tipo de mercado requiere un análisis exhaustivo, puede existir la necesidad de llegar al cliente mediante grandes superficies o cadenas de almacenes en una relación (B2B) al disponer los productos mediante grandes superficies donde la relación del proyecto es directamente con el canal y no con el cliente.
+
+    .row.justify-content-center
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/67.jpg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 En la relación (B2C) el proyecto busca llegar directamente al cliente y aunque este tipo de distribución es diferente cada una estará orientada al cliente final. Sin embargo, las relaciones con sus clientes serán diferentes, el canal de retail centra sus decisiones de compra en objetivos, como condiciones de compra, plazos de pago, precios, descuentos por volumen, y el cliente siempre decidirá su compra basada en aspectos más subjetivos: marca, imagen, diseño; indistintamente del canal distribuidor cada uno de analizarse de manera objetiva, a fin de proyectar de manera pertinente la demanda. 
+            br
+            br
+    .row.justify-content-center.mb-4
+      p(data-aos="fade-left") Este estudio es fundamental para conocer los hábitos de consumo de la población objetivo, sus hábitos de compra, forma de pago, periodicidad, medio que utiliza, la presentación de preferencia, sumado al motivo que le lleva a comprar el producto si es por el envase, la utilidad, presentación, valor agregado, entre otros. Es así que, no se puede obviar la necesidad de conocer el producto sustituto, el grado de fidelidad o lealtad a una marca o lugar de venta, los resultados de las promociones y de la publicidad de la competencia en el consumidor, así como la susceptibilidad de la demanda en cuanto al precio como a las condiciones de crédito, entre otros. 
+      p(data-aos="fade-left") La estrategia comercial que se defina tendrá repercusión directa en los ingresos y egresos del proyecto y se verá influida por las características tanto del consumidor como del competidor, en ese orden. Revisemos algunos elementos que se tienen en cuenta en esta estrategia:
+
+    .row.justify-content-center
+      .col-lg-10.col-12
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/68.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              h2 Mercado externo
+              p Este mercado interviene de forma transversal en los anteriores, es el quinto del estudio de mercado y de acuerdo con sus particularidades puede ser estudiado de forma aislada o sumado a los anteriores, aplica cuando es necesario acudir a otros proveedores de materias primas. 
+              p Estos mercados deben tener una investigación amplia para poder llevarse a cabo, siempre hay competidores que no se tuvieron en cuenta, proveedores dentro de la localización que no habían podido ser consultados, nuevos sistemas de distribución que no se incluyeron e incluso clientes por atender. 
+      .col-lg-10.col-12
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/69.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              h2 Globalización
+              p En esta parte del análisis, se deberá reconocer los factores internacionales más influyentes y estudiar su efecto sobre las variables del proyecto, identificando si la presencia, posición y relevancia estratégica que poseen los competidores en mercados como Estados Unidos, la Unión Europea y Asia es significativa.
+              p Lo anterior se debe analizar con minucias con el fin de establecer si se va a definir una oferta estandarizada o adaptada del producto e integrando la estrategia global, buscando su expansión a nuevas posibilidades de negocios.
+
+      .col-lg-10.col-12
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/70.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              h2 Efectos de la globalización
+              p Su objetivo está en el avance tecnológico y especialmente en reducir costos al tener la facilidad de mover bienes, servicios, dinero, talento humano e información de manera eficiente. 
+              p Esta inmersión en mercado internacionales viene desarrollándose, pero la aceleración del fenómeno es precisamente la característica de este nuevo siglo, sumado a la aparición de la pandemia que en 2020 puso al mundo a prueba frente a todos estos retos que se vienen logrando en unidad de los siguientes aspectos: 
+    .row.justify-content-center 
+      .col-lg-8.col-12
+        ul.lista-ul--color.lista-ul
+          li 
+            i.fas.fa-check
+            | En la esfera política, triunfo (parcial) de la alianza entre la democracia y el mercado.
+          li 
+            i.fas.fa-check
+            | El establecimiento de un mercado financiero mundial que funciona en tiempo real trayendo cada vez más innovaciones financieras con mayor seguridad en favor del usuario, generando mayores controles de cambio.
+          li 
+            i.fas.fa-check
+            | La consolidación de casas matrices o empresas de gran envergadura que tiene estructuras en el mundo entero y no se limitan por barreras geográficas pues no las conocen.
+          li 
+            i.fas.fa-check
+            | La agilidad en la transmisión universal de la información e instantánea en tiempo real.
+
+    SlyderA.bn.mb-4(tipo="b")
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Medio, política y legal
+          p.mb-0 Este aspecto condiciona el comportamiento de todo un sistema, por esa razón se incluye en el estudio del mercado externo, abarca todos los aspectos relacionados y condicionados a las decisiones de una nación y está relacionado con el punto de vista, la seguridad y generación de expectativas en diferentes niveles para los agentes del mercado. 
+          p.mb-0 Cuando las naciones se encuentran en etapa electoral el interés por invertir disminuye sustancialmente y decae afectando directamente el proyecto de inversión, así como en aspectos sociales, culturales, entre otros.
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/71.png", style="width: 450px" ,alt='').m-auto
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Incertidumbre
+          p.mb-0 La incertidumbre es la inestabilidad de un medio o una situación, por esa razón si el entorno cambia con frecuencia se denomina Entorno Dinámico, si los cambios que se presentan en el medio son mínimos es un Entorno Estable. 
+          p.mb-0 El grado de incertidumbre de cambio corresponde a un cambio imprevisto y el grado de incertidumbre de complejidad hace alusión al número de factores en el entorno organizacional.
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/72.png", style="width: 450px" ,alt='').m-auto
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Mercado objetivo
+          p.mb-0 Corresponde a una previsión del desarrollo del mercado histórico y el actual, así como su proyección o el análisis del potencial mercado objetivo, dirigido a los clientes relacionados con los productos y servicios a ofertar en el proyecto de inversión.
+          p.mb-0 Se da cuando se ha identificado diferentes segmentos, así como para ubicar el nicho de mercado, conocer la motivación de compra, determinando su ventaja competitiva, reconociendo barreras de entrada en el mercado, los puntos clave de éxito, la evolución y proyección actual.
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/73.png", style="width: 450px" ,alt='').m-auto
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Contribución a la FODA
+          p.mb-0 Esta matriz tiene la facultad de evidenciar los aspectos fuertes y débiles, internos y externos que tiene la organización, las amenazas son todos esos factores externos que influyen en la empresa negativamente, su ocurrencia puede ser desastrosa.
+          p.mb-0 Una de las ventajas de aplicar esta matriz es que la organización tiene información de base para prepararse y enfrentar, reduciendo el grado del riesgo que el proyecto de inversión debe asumir.
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/74.png", style="width: 450px" ,alt='').m-auto
+
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Oportunidades
+          p.mb-0 Representan los aspectos que se encuentran en el medio y son favorables para el proyecto, como es el caso de la demanda insatisfecha, los incentivos gubernamentales por la actividad del proyecto, las ventajas comparativas sobre el resto de la industria, la experiencia de ejecución de proyectos similares, así como los stakeholders en el medio externo.
+
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/75.png", style="width: 450px" ,alt='').m-auto
+
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Demanda de un producto
+          p.mb-0 Tiene una alta incidencia en los resultados de la empresa y en los resultados que ésta tendrá lo cual conlleva a su aprobación. 
+          p.mb-0 Difiere la demanda que tiene el producto la cual representa el número de consumidores en una zona, frente a la segunda demanda que se representa por las unidades consumidas por el mercado serán provistas por el proyecto o empresa. 
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/76.png", style="width: 450px" ,alt='').m-auto
+
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Estimación de la demanda
+          p.mb-0 El cálculo de la demanda inicia con establecer la cobertura o alcance geográfico del producto o servicio del proyecto de inversión, tiene diferentes implicaciones si el proyecto abarca una zona o región determinada o la suma de regiones en todo el país.
+          p.mb-0 De ahí la importancia de definir la táctica de desarrollo del proyecto, definiendo en cual zona o región es más trascendental realizar un lanzamiento.
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/77.png", style="width: 450px" ,alt='').m-auto
+
+      .row
+        .col-lg-7.mb-4.mb-lg-0
+          h4.mb-5 Factores que determinan el comportamiento de la demanda 
+          p.mb-0 La cantidad demandada de un producto o servicio depende del precio fijado, del ingreso de los consumidores, del precio de los bienes sustitutos o complementarios y de las preferencias del consumidor.
+          p.mb-0 En este análisis de viabilidad es imprescindible definir la naturaleza de la demanda del bien que se producirá, así como de los factores que influyen, la dimensión de los efectos ante la modificación en ciertos parámetros que se definen apropiados. 
+        
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/temas/tema1/78.png", style="width: 450px" ,alt='').m-auto
+    
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Instrumentos
+
+    .row.justify-content-center.mb-4 
+      .col-lg-7.col-10.mb-3
+        p(data-aos="fade-left") Los instrumentos de investigación de mercado son claves en el análisis para las organizaciones que buscan profundizar en el mercado al que pertenecen y por la importancia de este estudio requieren información confiable. Las empresas pequeñas realizan investigaciones propias a través del profesional o jefe del departamento de mercado, en otros casos esta labor se delega al líder de innovación y desarrollo, y en las empresas de mayor tamaño y cobertura esta labor es tercerizada, de manera que se contrata a una firma consultora experta en este tema para su realización.
+        p(data-aos="fade-left") Para recoger la información correspondiente se debe definir el tipo de investigación que se va a realizar, las cuales pueden ser primarias o secundarias, veamos:
+      .col-lg-5.col-md-8.col-10.mb-3
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/79.png', alt='Imagen decorativa')
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/80.svg', alt='Imagen decorativa')
+          
+        h2.text-center La investigación primaria 
+        p Se lleva a cabo a través de una entrevista a expertos de un mercado específico con el objeto de recolectar nueva información, su ventaja radica en que a través de este tipo de investigación se recopila únicamente la información necesaria.
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/81.svg', alt='Imagen decorativa')
+          
+        h2.text-center La investigación secundaria 
+        p Se utiliza a partir de registros o estudios históricos, en este tipo de estudio se ahorra tiempo y dinero porque no se aplican instrumentos, acude a fuentes veraces como la Cámara de Comercio, el Ministerio de Comercio, Industria y Turismo (MINCIT), de gremios, investigaciones de universidades, entre otros para el análisis, manejo, gestión y consolidación de nuevas conclusiones.
+
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      PasosB.color-primario
+        .row(titulo="Paso 1")
+          .col-md-6.mb-4.mb-md-0
+            p La recolección de la información debe realizarse haciendo uso de un proceso planeado paso a paso, para que de manera estructurada y coherente se obtengan resultados que coadyuven favorablemente al logro de los objetivos planteados.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/82.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 2")
+          .col-md-6.mb-4.mb-md-0
+            p La búsqueda de la información se realiza basada en elementos del punto focal o situación objeto de estudio, el planteamiento de preguntas relevantes, las variables intervinientes en el proceso y los indicadores que permiten operacionalizarlas.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/83.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 3")
+          .col-md-6.mb-4.mb-md-0
+            p Es necesario construir el plan de trabajo con el paso a paso del proceso a realizar, para evitar inconvenientes en la búsqueda de información, si no se realiza de manera ordenada, que a su vez, permita evaluar la confiabilidad y validez tanto del proceso mismo, como de la información recolectada.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/84.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 4")
+          .col-md-6.mb-4.mb-md-0
+            p Al diseñar los instrumentos de recolección de información, es recomendable realizar su aplicación con el fin de evaluar su pertinencia a través de una prueba piloto, así se evalúa el desarrollo de actividades ya en campo y posteriormente, se sugieren algunas modificaciones antes de realizar el estudio en su totalidad.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/85.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 5")
+          .col-md-6.mb-4.mb-md-0
+            p Este debe incluir un esquema de control de calidad para validar la correlación entre los datos procesados y los datos recolectados, que contemple el proceso a llevar a cabo para definir la veracidad de los datos recolectados por el encuestador, observador y/o entrevistador.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/86.svg', alt='Imagen decorativa')
+
+        .row(titulo="Paso 6")
+          .col-md-6.mb-4.mb-md-0
+            p La información recolectada debe cumplir con dos características, de confiabilidad, considerada como la capacidad del instrumento para arrojar datos o mediciones que correspondan a la realidad que se pretende conocer.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/87.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 7")
+          .col-md-6.mb-4.mb-md-0
+            p La validez de un instrumento de recolección de información, definida como la propiedad del instrumento para medir u observar lo que se pretende o el objeto de la investigación.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/88.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 8")
+          .col-md-6.mb-4.mb-md-0
+            p Esta condición es fundamental para obtener la confiabilidad, la validez se relaciona con la verosimilitud o más precisamente con la correspondencia entre el modelo teórico construido en la investigación y la realidad empírica.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/89.svg', alt='Imagen decorativa')
+        .row(titulo="Paso 9")
+          .col-md-6.mb-4.mb-md-0
+            p Se habla de validez interna o credibilidad para referirse a la congruencia entre las observaciones realizadas en el trabajo de campo y la realidad tal como la perciben los sujetos.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/90.svg', alt='Imagen decorativa')
+    .row.mb-4
+      p(data-aos="fade-left") En los últimos tiempos varias disciplinas científicas han incorporado la triangulación como uno de los procedimientos para asegurar la validez y la confiabilidad de la información que utilizan. Si eso se ha hecho creciente en las ciencias sociales, éstos también son comunes en las ciencias biológicas, en las disciplinas tecnológicas y en algunas de las ciencias naturales.
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Instrumentos y técnicas empleados en el estudio de mercados
+    .row.mb-4
+      p(data-aos="fade-left") A la hora de llevar a cabo un estudio de mercados, es de importancia puntualizar que se lleva a cabo un proceso de investigación donde es clave reconocer las diferentes técnicas e instrumentos que se pueden emplear de acuerdo al tipo de información requerida y a la fuente de información con la que se cuenta. Entre otras técnicas e instrumentos se encuentran los siguientes:
+
+    .row.justify-content-center.mb-5
+      .col-lg-8.col-12.mb-5
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+          h5 Figura 4.
+          span <i>Técnica e instrumentos de recolección de información</i> 
+        figure.desktop(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/91.svg' alt='PENDIENTE TEXTO ALT')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/92.svg' alt='PENDIENTE TEXTO ALT')
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Tipos de instrumentos empleados en el estudio de mercados
+    
+    .row.mb-4
+      p(data-aos="fade-left") Existen diferentes instrumentos para recopilar información que son usados según su propósito, los cuales cumplen su función, de acuerdo con el diseño que se realice, el cual debe ser validado y puesto a prueba para comprobar su pertinencia y eficiencia en cuanto al logro del objetivo propuesto. Se considera que los tipos de instrumentos para recolectar información son clasificados según el tipo de información a recolectar; es decir, si es cuantitativa o cualitativa, así:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        li.text-bold.mb-3(style="color: #0C5E46")(data-aos="zoom-in-down") Instrumentos  de recolección de información cualitativa
+        p.mb-4(data-aos="fade-left") Los instrumentos de recolección de información cualitativa son necesarios debido a la existencia de la investigación cualitativa basada en la comparación. Este tipo de instrumentos son utilizados en proyectos donde se requiere demostrar una teoría, donde existe una variable dependiente y una independiente, es decir, proyectos de tipo social o que analiza el comportamiento humano en un entorno determinado indiferente el sector al que corresponda. 
+        .row.justify-content-center 
+          .col-lg-4.col-8
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/93.svg', alt='Imagen decorativa')
+          .col-lg-7.col-12
+            p(data-aos="fade-left") Los instrumentos de recolección de información cualitativa son: 
+            ul.lista-ul--color.lista-ul
+              li 
+                i.fas.fa-check
+                | Entrevistas.
+              li 
+                i.fas.fa-check
+                | Observación participante.
+              li 
+                i.fas.fa-check
+                | Análisis documental.
+              li 
+                i.fas.fa-check
+                | Autorreportaje.
+              li 
+                i.fas.fa-check
+                | Categorización. Triangulación y Teoría Fundamentada.
+              li 
+                i.fas.fa-check
+                | Perspectivas de Diferentes Autores.
+              li 
+                i.fas.fa-check
+                | Documentos de archivo y fuentes gubernamentales.
+              li 
+                i.fas.fa-check
+                | Comunidades online.
+          li.text-bold.mb-3(style="color: #0C5E46")(data-aos="zoom-in-down") Instrumentos  de recolección de información cuantitativa
+          p.mb-4(data-aos="fade-left") En cuanto a los instrumentos de recolección de información cuantitativa difieren de los instrumentos de recolección de información cualitativa en que su uso es fundamental para conocer datos o cifras frente a una situación, variable o problema a identificar, por esta razón algunos instrumentos incluidos anteriormente, pero su uso hace que sean clasificados de esta manera debido a que están orientados a obtener datos concretos y numéricos sobre la variable, situación o problema objeto de estudio.
+          p.mb-4(data-aos="fade-left") Los instrumentos de recolección de información son elementos utilizados y diseñados de acuerdo con el objetivo a partir del problema que origina la investigación, por esta razón en este apartado se incluyen los instrumentos en cada tipología con la claridad de que su diseño y aplicación debe ser acorde a la información que se espera obtener. 
+          p.mb-4(data-aos="fade-left") Y están sujetos al tipo de investigación, método y técnica empleada en el estudio o investigación. Los instrumentos de recolección de información cuantitativa son: 
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-12
+              ul.lista-ul--color.lista-ul
+                li 
+                  i.fas.fa-check
+                  | Entrevistas.
+                li 
+                  i.fas.fa-check
+                  | Cuestionario #[i físico y online].
+                li 
+                  i.fas.fa-check
+                  | Observación cuantitativa.
+                li 
+                  i.fas.fa-check
+                  | Documentos de archivo y fuentes gubernamentales.
+                li 
+                  i.fas.fa-check
+                  | #[i Focus groups] presenciales y #[i online].
+                li 
+                  i.fas.fa-check
+                  | Comunidades #[i online].
+                li 
+                  i.fas.fa-check
+                  | Experimentos de Laboratorio.
+            .col-lg-4.col-8
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/tema1/94.svg', alt='Imagen decorativa')
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Técnicas de recolección de información en un estudio de mercado
+    p(data-aos="fade-left") Una vez reconocimos los instrumentos, revisemos algunas técnicas empleadas en la investigación de mercados como la encuesta, la observación, la entrevista, etc.:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        li.text-bold.mb-3(style="color: #0C5E46")(data-aos="zoom-in-down") Encuestas
+        p(data-aos="fade-left") La encuesta es una técnica de investigación que busca describir, analizar y establecer las relaciones entre variables en poblaciones o grupos particulares, propicia cuando se desea obtener el conocimiento colectivo o de tipos de participantes como instituciones o fenómenos. Se utiliza en procesos en que se requiere conocer un asunto u objetivo de investigación de manera amplia por lo que se convierte en el instrumento más apto para alcanzar una comunidad, la encuesta puede ser:
+        .row.justify-content-center.mb-4
+          .col-lg-5.col-10.mb-3
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/95.svg', alt='Imagen decorativa')
+          .col-lg-5.col-10.mb-3
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/96.svg', alt='Imagen decorativa')
+            
+        li.text-bold.mb-3(style="color: #0C5E46")(data-aos="zoom-in-down") Observación
+        p.mb-4(data-aos="fade-left") Técnica de recolección de información que consiste en la inspección y estudio de los hechos u objeto de investigación, tal como ocurren en la realidad, a través del uso de los sentidos (con o sin ayuda de soportes tecnológicos) de acuerdo con los requerimientos de estudio y a partir de las categorías perceptivas definidas desde las teorías científicas que apoyan la investigación. Los tipos de técnicas de observación existentes son: 
+
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema1/97.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--azul1
+                .p-4
+                  h2 Directa
+                  p Es aquella donde se tienen un contacto directo con los elementos o caracteres en los cuales se presenta el fenómeno que se pretende investigar, y los resultados.
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema1/98.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--azul2
+                .p-4
+                  h2 Indirecta
+                  p Ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno.
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema1/99.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--azul1
+                .p-4
+                  h2 Participante
+                  p Atañe a la observación que realiza el investigador de manera cercana a la realidad.
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema1/100.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--azul2
+                .p-4
+                  h2 No participante
+                  p Corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
+          
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Entrevista
+          
+        .row.justify-content-center.mb-4
+          .col-lg-6.col-md-8-col-10
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/101.png', alt='Imagen decorativa')
+          .col-lg-6.col-12
+            p(data-aos="fade-left") Es una herramienta principalmente para la recolección de datos cualitativos, aunque se precisa que de acuerdo con el diseño que se realice puede ser utilizada para la recolección de datos cuantitativos. Es de uso cotidiano como instrumento para recopilar información debido a su flexibilidad. Las interacciones que se generan en una entrevista pueden presentarse de forma estructurada o semiestructurada para generar ideas y conceptos.
+        
+        .row.justify-content-center.mb-4
+          p(data-aos="fade-left") En el diseño de la entrevista, se deben tener en cuenta aspectos como la exhaustividad, el tacto, la precisión, la exactitud y la confidencialidad. Las entrevistas requieren habilidades especializadas por parte del entrevistador, que deberá tener una buena relación con el entrevistado para garantizar que realmente se recolectan y transcriban eficazmente un conjunto de datos cualitativos muy detallados y válidos. Los tipos de entrevista son:
+        
+        .row.justify-content-center.mb-4
+          .col-lg-4.col-12
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/102.svg', alt='Imagen decorativa')
+            h5.text-center a) Estructura o formal
+          .col-lg-4.col-12
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/103.svg', alt='Imagen decorativa')
+            h5.text-center b) No estructurada o informal
+          .col-lg-4.col-12
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/104.svg', alt='Imagen decorativa')
+            h5.text-center c) Semiestructurada
+        
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Recopilación/Revisión/ Análisis Documental
+
+        p(data-aos="fade-left") El fundamento de una investigación se origina en la revisión o análisis de fuentes bibliográficas las cuales pueden ser personales como testimonios, entrevistas, grupales, institucionales, formales o informales. En estas fuentes se encuentran diferentes tipos de información de incalculable valor que pueden consolidarse como piezas claves para el desarrollo del estudio o investigación. Para realizar el análisis documental es necesario: 
+
+        .row.justify-content-center.mb-4
+          .tarjeta.tarjeta--azul
+            LineaTiempoB.mb-5(:datos="datosLineaTiempoB")
+
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Método Delphi
+        
+        p.mb-4(data-aos="fade-left") Procedimiento que se realiza para obtener ideas y opiniones de personas expertas en un tema; para ello, estas personas, deben discutir y llegar a un acuerdo o consenso. Su proceso de aplicación consiste en: 
+
+        .row.mb-5
+          .col-md-6.col-lg.tarjeta--tabla1.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema1/110.svg' alt='AvatarTop')
+            p.text-center a) Identificar la idea central o problema.
+
+          .col-md-6.col-lg.tarjeta--tabla2.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema1/111.svg' alt='AvatarTop')
+            p.text-center b) Seleccionar los expertos.
+          
+          .col-md-6.col-lg.tarjeta--tabla1.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema1/112.svg' alt='AvatarTop')
+            p.text-center c) Formación el panel (Objetivos del estudio. criterios de selección, presupuesto, cronograma y tiempo de las sesiones, y recompensa o beneficios por ser parte del estudio).
+
+          .col-md-6.col-lg.tarjeta--tabla2.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema1/113.svg' alt='AvatarTop')
+            p.text-center d) Elaboración y aplicación del presupuesto, y confirmación de resultados.
+        
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") #[i Focus Group]
+
+        p(data-aos="fade-left") Es una técnica cualitativa de recolección de datos. Consiste en realizar una entrevista en grupo con el objetivo de recoger información sobre un número específico de preguntas. Es muy útil para recoger información de manera inmediata y espontánea bajo la instrucción de un moderador el cual socializa la herramienta y presente el objetivo de su aplicación.
+        p.mb-5(data-aos="fade-left") Consiste en un conversatorio que se realiza alrededor de un tema planteado por el investigador. La manera en la que se desarrolla la conversación se rige por medio de la rotación de turnos para participar. Se utiliza mayormente para realizar una investigación de mercado, se basa en enfocar un objeto e investigarlo; se realiza con un grupo de personas interactuando y compartiendo ideas sobre el producto a evaluar. Busca realizarse siguiendo los siguientes pasos:
+
+        .row.justify-content-center.mb-4
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Definir el problema:
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Previo a la convocatoria de los participantes del #[i Focus Group] se debe precisar que es lo que se va a evaluar.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Elegir a los participantes:
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Una vez que se haya determinado el problema, se elige a los participantes; estos pueden ser obtenidos de una base de datos aleatoria.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Seleccionar al moderador:
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Esta persona debe estar consciente de todos los procesos y del estudio.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Planificar el diálogo:
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Se debe informar a los participantes sobre el proceso del #[i Focus Group], además del tiempo y recursos.
+          .col-md-5.tarjeta.color-primario.p-4.mb-4(style="background-color: #0C5E46")
+            h4 Resultados:
+          .col-md-7.tarjeta.color-acento-botones.p-4.mb-4(style="background-color: #D2E1F1")
+            p Es importante que se grabe la sesión para obtener resultados más confiables.
+
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Autorreportaje
+          .row.justify-content-center.mb-4
+            .col-lg-3.col-8.mb-3
+              figure.mb-3(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/tema1/114.svg', alt='Imagen decorativa')
+            .col-lg-9.col-12.mb-3
+              p(data-aos="fade-left") Es una técnica donde el mismo informante reportará su situación o experiencia, solicitada por el investigador. Para desarrollar el autorreportaje es necesario elaborar un guion con preguntas puntuales y fundamentales relacionadas con el suceso o vivencia.
+              p(data-aos="fade-left") Para la implementación de las técnicas revisadas, el principal instrumento sin duda es el cuestionario, pues es en esencia la clave del éxito de la aplicación de las técnicas.
+
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Cuestionario
+        p(data-aos="fade-left") Herramienta diseñada para la recolección de información cualitativa y de datos cuantitativos, es pertinente para recolectar datos estandarizados y hacer generalizaciones. Además, es considerado una subdivisión de la encuesta y es útil para agilizar la investigación proporcionando respuestas rápidas. Su elaboración debe ser cuidadosa y profesional de manera que las preguntas no influyan en la respuesta que se espera recibir. 
+        .row.justify-content-center 
+          .col-lg-6.col-8.mb-4
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/115.png', alt='Imagen decorativa')
+          .col-lg-6.col-12.mb-4
+            p(data-aos="fade-left") Este tipo de instrumentos se diseña con preguntas abiertas donde la respuesta no está condicionada, sino que se tiene la facilidad de responder a criterio propio y con su propio lenguaje. También se puede elaborar con preguntas cerradas si el objeto de aplicación del instrumento requiere respuestas precisas que develan la causa de una situación o raíz de un problema.
+        p(data-aos="fade-left") En la fase final de la investigación del estudio de mercado, se inicia el proceso de abordaje de los datos recolectados, a través de ejercicios de categorización y triangulación, revisemos en detalle en qué consisten estos procesos:
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Categorización, triangulación y teoría fundamentada
+    .row.justify-content-center.mb-5
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-0
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/116.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El estudio de mercado es el primer análisis de un proyecto de inversión con el fin de determinar su viabilidad en cuanto a este aspecto, el mercado; en él se determina si existe demanda para el producto o servicio a ofertar, analiza la competencia con el fin de conocer el sector al que pertenece esta actividad, identifica los competidores más fuertes como su estrategia para operar el negocio. Así mismo debe establecer la ubicación para el lanzamiento y operación de la actividad como producto final, debe consolidar la información recogida mediante instrumentos y correspondiente a cada uno de los componentes considerados sus factores críticos, cuantificándolos, lo cual conlleva a la elaboración del presupuesto por cada uno de estos aspectos que próximamente alimentará las proyecciones financieras en el estudio correspondiente para la determinación de su factibilidad.
+            br
+            br
+    p.mb-4(data-aos="fade-left") También es pertinente mencionar que esta herramienta es un proceso cognitivo complejo de clasificación según su semejanza y diferencias encontradas que responden a unos criterios previamente determinados, es decir, la agrupación de información de acuerdo con sus características en capítulos, apartados o conjuntos y subconjuntos a los que se les debe asignar nombre. Las categorías se dividen en tres clases: deductivas, inductivas y abductivas, las cuales se representan en el esquema a continuación.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8.col-12.mb-5
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+          h5 Figura 5.
+          span <i>Tipos de Categorías</i> 
+        figure.desktop(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/117.svg' alt='PENDIENTE TEXTO ALT')
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/118.svg' alt='PENDIENTE TEXTO ALT')
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Triangulación
+    p.mb-4(data-aos="fade-left") Cumple con la función de validar la información obtenida y consiste en el uso de dos o más aproximaciones en el análisis de un mismo grupo de datos, con el propósito de realizar su validación. Se lleva a cabo comparando el resultado del análisis de datos, usando diferentes técnicas de análisis cualitativo para evaluar en forma similar los resultados disponibles. Sirve para identificar patrones similares y así verificar los hallazgos. Existen los siguientes tipos de triangulación:
+
+    .row.justify-content-center.mb-4
+      .col-lg-8.col-12
+        .row.mb-0
+          .col-md-6.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/119.svg' alt='AvatarTop')
+              .tarjeta.color-secundario
+                .text-white.p-4
+                  h2.text-center La triangulación teórica
+                  p Consiste en el uso de diferentes perspectivas o diferentes tópicos esenciales en la información analizada.
+
+          .col-md-6.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/120.svg' alt='AvatarTop')
+              .tarjeta(style="background-color: #E1EFE3")
+                .p-4
+                  h2.text-center La triangulación metodológica
+                  p Consiste en la combinación de dos o más resultados de recolecciones de datos con similitudes aproximadas en el mismo estudio.
+
+    p(data-aos="fade-left") Cada estudio se debe codificar y analizar separadamente para luego compararlos con el fin de validarlos y luego se comparan como una manera de validar los hallazgos. Todo este proceso es indispensable cuando la información hallada es suficiente o muy amplia, con el fin de controlar el sesgo personal de los investigadores y cubrir deficiencias intrínsecas de un investigador o de una teoría o de un método de estudio y de esta manera confirmar la validez de los resultados.
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Comunidades #[i online]
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-3
+        figure.mb-3(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/121.png', alt='Imagen decorativa')
+      .col-lg-8.col-12.mb-3
+        p(data-aos="fade-left") Llamadas también #[i Insight Community] herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés de la marca con el fin de conocer sus comentarios, observaciones y sugerencias por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
+        p(data-aos="fade-left") Este instrumento es muy valorado por las empresas pues a través de ellas las organizaciones encuentran información inmediata lo cual les permite conocer el amplio conocimiento que poseen los participantes. Existen diferentes tipos de comunidades #[i online], veamos:
+
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-small Comunidades de marca 
+              p.text-small En este tipo de comunidad se vinculan personas que aman la marca y quieren contribuir con sus aportes para su retroalimentación, estos tipos de participantes son considerados la población objetivo, son leales lo que hace que sus aportes sean valiosos porque corresponden a la realidad debido a su sinceridad.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/122.svg')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-small Comunidades temáticas o de nichos
+              p.text-small Son comunidades que buscan información de manera gratuita por tanto no necesariamente pertenecen a una marca, sino que su enfoque son temas específicos atractivos para ciertos públicos, los cuales pueden ser ofrecidos a industrias específicas interesadas en ese tema especialmente.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/123.svg')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #E1EFE3")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-small Comunidades genéricas
+              p.text-small Está integrada por personas con diversos perfiles que participan en diferentes áreas, dependiendo el perfil profesional o personal que requiera la investigación. Aquí se utilizan encuestas para perfilar y segmentar los participantes en estudios específicos.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/124.svg')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #E1EFE3")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-small Comunidades de clientes
+              p.text-small Esta comunidad integrada por clientes de la marca que participan en diferentes actividades como fotos o lluvias de ideas sobre nuevos productos y servicios.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/125.svg')})`}")
+
+    .row.justify-content-center.mb-3
+      p(data-aos="fade-left") Las comunidades #[i online] son una inversión productiva para las empresas porque generan un espacio adecuado para recolectar información al instante y generan relaciones más estrechas que logran llegar a la fidelidad.
+      p(data-aos="fade-left") Sin embargo, es de resaltar que, de las técnicas e instrumentos de recolección de información más apropiadas para un estudio de mercado, se han encontrado los instrumentos: el #[i Método Delphi] y el #[i Focus Group]. 
+
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Segmentación
+    p.mb-4(data-aos="fade-left") Definir el consumidor individual sustenta la necesidad de los estudios de mercado de acudir a técnicas de investigación etnográficas; es decir, al análisis del comportamiento del cliente en su contexto, donde lo importante no es lo que las personas manifiestan o dicen sino lo que realmente realizan.
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/126.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Cuando el producto del proyecto de inversión se ha diseñado para satisfacer al mercado personal la proyección de la demanda se torna compleja debido a la subjetividad que viene sumada en la decisión de compra, en este caso la definición de la demanda depende de la caracterización del consumidor lo que implica saber quién toma la decisión de compra.
+              br
+              br
+    
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #E1FBFF")
+          p De acuerdo con lo anterior, se puede confirmar que las tendencias de segmentación son cambiantes constantemente y crecen cada vez más, por lo que se debe encontrar el equilibrio para gestionar la segmentación exitosamente lo cual se soporta y se consolida mediante los procesos de capacitación, las alianzas estratégicas, la tecnología, el conocimiento profundo del producto o servicio y la identificación precisa de consumidores y clientes aspectos que facilitan el proceso de segmentación de mercado.
+    p.mb-5(data-aos="fade-left") Para realizar la segmentación se debe conocer la magnitud del mercado; es decir, saber dónde están ubicados los clientes o usuarios cuyas necesidades el proyecto se encuentra en capacidad de satisfacer, definir la necesidad que se espera satisfacer, así como el tamaño del mercado al que ingresa y definir el producto o servicio satisfactor de manera precisa de la siguiente manera:
+
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones.p-4(titulo="Mercado Total")(style="background-color: #FEF5E5")
+        p Son las personas del mercado total que tienen una necesidad por satisfacer y cuentan con las condiciones para adquirir un producto o servicio para satisfacerlas y son de interés para la organización en el largo plazo. 
+      .tarjeta.color-acento-botones.p-4(titulo="Mercado potencial")(style="background-color: #FEF5E5")
+        p Integrado por el conjunto de personas que tienen una necesidad por satisfacer a través de un producto o servicio.
+      .tarjeta.color-acento-botones.p-4(titulo="Mercado meta")(style="background-color: #FEF5E5")
+        p Conjunto de compradores o consumidores del mercado potencial que tienen necesidades u objetivos comunes, a los cuales la organización decide satisfacer o atender en el corto plazo.
+      .tarjeta.color-acento-botones.p-4(titulo="Mercado real")(style="background-color: #FEF5E5")
+        p Es el mercado objetivo o nicho de mercado, subgrupo más específico del mercado meta que tiene características especiales y buscan un conglomerado de beneficios que han sido captados por la empresa y son el grupo estratégico a corto plazo.
+
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.p-4(style="background-color: #E1EFE3")
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema1/127.svg' alt='AvatarTop')
+        h4.text-center Reconocimiento de la situación actual de mercado
+        li Identificar las necesidades específicas satisfechas por mercados actuales
+        li Ubicar las necesidades no satisfechas adecuadamente por ofertas actuales
+        li Descubrir necesidades futuras que no han sido reconocidas
+
+      .tarjeta.p-4(style="background-color: #E1EFE3")
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema1/128.svg' alt='AvatarTop')
+        h4.text-center Identificar características especiales que caracterizan los segmentos
+        li Establecer los criterios y las variables a analizar
+        li Contar con fácil acceso al segmento.
+
+      .tarjeta.p-4(style="background-color: #E1EFE3")
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema1/129.svg' alt='AvatarTop')
+        h4.text-center Identificar la necesidad de cada quien
+        li Calcular la demanda del segmento.
+        li Estimar la magnitud del segmento.
+
+      .tarjeta.p-4(style="background-color: #E1EFE3")
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema1/130.svg' alt='AvatarTop')
+        h4.text-center Identificar la forma de satisfacer totalmente esa necesidad
+        li Diseñar un plan de distribución.
+        li Puesta en marcha del programa promocional.
+        li Establecer una filosofía empresarial del servicio.
+        li Llevar el registro y control de los resultados.
+    p.mb-4(data-aos="fade-left") La segmentación del mercado es un proceso a través del cual se divide un mercado en grupos con características similares lo que los hace uniformes y homogéneos, así como sus necesidades. Por ser grupos pequeños de consumidores es posible que sus respuestas sean muy parecidas y es gracias a estas razones que aparecen los tipos de segmentación.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12.mb-0
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+          h5 Figura 6.
+          span <i>Formas de segmentar el mercado</i> 
+        figure.desktop(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/131.svg' alt='PENDIENTE TEXTO ALT')
+          figcaption Nota.  https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69104
+        figure.movil(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/132.svg' alt='PENDIENTE TEXTO ALT')
+          figcaption Nota.  https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69104
+    p.mb-4(data-aos="fade-left") El término segmentación del mercado es más utilizado en lo referente a indagar acerca de la población a la que se dedicará el proyecto, bien sea con la oferta de un producto o servicio, por esa razón se suele pensar que es única, pero se han definido los diferentes tipos de segmentación que se presentan a continuación:
+
+    .row.justify-content-center.mb-5
+      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+        .row(titulo="La segmentación por producto")
+          .col-md-6.mb-4.mb-md-0
+            p Consiste en desarrollar un producto que con sus atributos logre satisfacer las necesidades de este segmento.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/133.png', alt='Imagen decorativa')
+        .row(titulo="La segmentación por comportamiento de compra")
+          .col-md-6.mb-4.mb-md-0
+            p Está orientada al sector industrial y realizan su compra de acuerdo con el proceso de compra realizado por los consumidores.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/134.png', alt='Imagen decorativa')
+        .row(titulo="La segmentación por usos")
+          .col-md-6.mb-4.mb-md-0
+            p Utilizada para segmentar el mercado de acuerdo con los diferentes usos o formas de utilizar el producto.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/135.png', alt='Imagen decorativa')
+        .row(titulo="La segmentación por lugar de compra")
+          .col-md-6.mb-4.mb-md-0
+            p Es la clasificación de los lugares o zonas donde se adquiere el producto con dos criterios por establecimiento comercial o su ubicación geográfica.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/136.png', alt='Imagen decorativa')
+
+        .row(titulo="La segmentación por forma de pago")
+          .col-md-6.mb-4.mb-md-0
+            p Es la identificación de la forma en que el cliente cancela o adquiere el producto. Estas son: efectivo, crédito, tarjetas débito, vía electrónica.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/137.png', alt='Imagen decorativa')
+        .row(titulo="La segmentación por categorías demográficas")
+          .col-md-6.mb-4.mb-md-0
+            p Es aquella que tiene como base la edad, sexo, ingresos, educación, lugar de origen, entre otros.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/138.png', alt='Imagen decorativa')
+        .row(titulo="La segmentación por beneficios")
+          .col-md-6.mb-4.mb-md-0
+            p Consiste en fraccionar el mercado en submercados homogéneos de acuerdo con los beneficios y bondades que buscan los consumidores del producto.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/139.png', alt='Imagen decorativa')
+    
+    .row.justify-content-center.mb-4
+      p(data-aos="fade-left") La segmentación debe ser medible, accesible, delimitable, oportuna, funcional, viable, confiable y rentable.
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas(style="color: #0C5E46") Variables de segmentación de mercado
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        .row.justify-content-center.mb-4
+          .col-lg-4.col-8.mb-3
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/140.svg', alt='Imagen decorativa')
+          .col-lg-8.col-8.mb-3
+            p(data-aos="fade-left") Las variables de segmentación de mercado son determinantes para conocer el nicho de mercado que atenderá la empresa, son tan importantes porque ellas permiten acercarse al cliente que se identifica con las condiciones del producto o servicio a ofrecer y se dice que a mayor cantidad de variables más cerca se estará de conocer el cliente del proyecto de inversión o empresa.
+            p(data-aos="fade-left") De acuerdo con lo anterior, es claro que entre más variables se tengan en cuenta mayor será el cúmulo de información a recoger, clasificar, analizar y validar, llevando un mayor tiempo de abordaje, lo que puede tornarse desgastante y no facilita el objetivo de investigación. Por esta razón lo aconsejable es definir entre tres o cuatro variables que se relacionen con el producto o servicio a ofertar y permitan definir con claridad el segmento o nicho de mercado del proyecto de inversión u organización.
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        .row.justify-content-center.mb-4.align-items-center
+          .col-lg-8.col-12.mb-3
+            .tarjeta.p-4(style="background-color: #E1FBFF")
+              li Edad
+              li Sexo
+              li Estado Civil
+              li Tamaño de la familia o número de integrantes
+              li Nivel Económico o de ingresos
+              li Nivel académico o ultimo grado de educación
+              li Zona de residencia: urbana o rural
+              li Nivel climatológico: zonas húmedas, secas, calurosas, frías y cálidas
+              li Ocupación o profesión
+              li Aficiones o hobbies
+              li Hábitos de compra
+          .col-lg-4.col-8.mb-3
+            figure.mb-3(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/141.png', alt='Imagen decorativa')
+    .row.justify-content-center.mb-4
+      p(data-aos="fade-left") La segmentación es trascendental en la previsión de la demanda, pues gracias a este proceso se condiciona y define el tamaño del mercado, para lo cual es prioritario definir las categorías de consumidores del producto o servicio, esas categorías pueden ser hogares, familias, instituciones, personas, éstas variables de acuerdo con el producto o servicio del proyecto de inversión hacen que se define si es necesario segmentar el mercado para proyectar la demanda o si no es indispensable realizarlo gracias a que se puede estimar por el tipo de población objetivo sobre la población total.
+
+      
+
+
 </template>
 
 <script>
@@ -855,6 +1694,36 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    datosLineaTiempoB: [
+      {
+        titulo: '1. Inventario',
+        texto: 'Realizar un inventario de documentos existentes y disponibles.',
+        icono: require('@/assets/curso/temas/tema1/105.svg'),
+      },
+      {
+        titulo: '2. Clasificar',
+        texto: 'Clasificar los documentos identificados.',
+        icono: require('@/assets/curso/temas/tema1/106.svg'),
+      },
+      {
+        titulo: '3. Seleccionar',
+        texto:
+          'Seleccionar los documentos más pertinentes para el propósito u objeto de la investigación.',
+        icono: require('@/assets/curso/temas/tema1/107.svg'),
+      },
+      {
+        titulo: '4. Leer a profundidad',
+        texto:
+          ' Leer a profundidad los documentos seleccionados extrayendo de ellos a través del análisis patrones, tendencias, convergencias y contradicciones que se vayan identificando.',
+        icono: require('@/assets/curso/temas/tema1/108.svg'),
+      },
+      {
+        titulo: '5. Cruzar la información',
+        texto:
+          'Cruzar la información encontrada a través de la lectura y compararla en aspectos o hallazgos previamente realizados, lo que aportará al desarrollo de una síntesis sobre la realidad estudiada.',
+        icono: require('@/assets/curso/temas/tema1/109.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
