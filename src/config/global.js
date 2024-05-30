@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estudio del mercado y su segmentación',
     descripcionCurso:
-      'Este componente es un estudio del mercado como el dinamizador de la economía y da vida a las organizaciones, por ser una actividad económica innovadora o una empresa en marcha, cotidianamente se debe recurrir a este tipo de investigación para mantenerse a la vanguardia de las tendencias y cambios tecnológicos que exige el mercado.',
+      'El estudio de mercado juega un papel fundamental como motor de la economía y como impulsor de las organizaciones. Tanto para empresas innovadoras como para aquellas ya establecidas, la realización de investigaciones de mercado es una práctica cotidiana necesaria para mantenerse a la vanguardia de las tendencias y los cambios tecnológicos que demanda el mercado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -246,21 +246,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Abel Fernando Becerra Carrillo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Experto temático',
-          centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Miroslava González Hernández',
-          cargo: 'Diseño y evaluadora instruccional',
-          centro:
-            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesoría metodológica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          nombre: 'Gloria Alexandra OrejarenaBarrios',
+          cargo: 'Diseño Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distro Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -269,13 +262,13 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
         },
         {
-          nombre: 'Julia Isabel Roberto',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Corrección de estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluación instruccional',
+          cargo: 'Asesoría metodológica y evaluación instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -294,8 +287,13 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Luis Fernando Botero Mendoza',
+          nombre: 'Jose Yobani Penagos Mora',
           cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -309,7 +307,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
