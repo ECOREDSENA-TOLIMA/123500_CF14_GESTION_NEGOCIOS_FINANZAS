@@ -195,7 +195,8 @@ export default {
     {
       referencia:
         'Arias, J. (2020). Técnicas e Instrumentos de Investigación Científica. Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC). Enfoques Consulting EIRL. Perú.',
-      link: 'http://repositorio.concytec.gob.pe/handle/20.500.12390/2238',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w26118w/Tecnicas%20e%20instrumentos.pdf',
     },
     {
       referencia:
