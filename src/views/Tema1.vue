@@ -23,21 +23,21 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/142.svg' alt='Imagen decorativa')
-        h2.text-center La estrategia publicitaria
+        h4.text-center La estrategia publicitaria
         p.text-center La cual tiene una fuerte repercusión en la inversión.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #E1EFE3")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/142.svg' alt='Imagen decorativa')
-        h2.text-center La estrategia de promoción
+        h4.text-center La estrategia de promoción
         p.text-center Antes de la puesta en marcha.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/142.svg' alt='Imagen decorativa')
-        h2.text-center La política de distribución del producto
+        h4.text-center La política de distribución del producto
         p.text-center Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
 
     //-.row.justify-content-center.mb-5
@@ -195,7 +195,7 @@
     .row.mb-5
       figure(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/vt5u3yOdvEg?si=cZpXj37ZKXr_fg4h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-3.col-md-5.col-8
         figure
@@ -206,7 +206,7 @@
     .row.mb-5
       figure(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/rJVdrM7nzyY?si=NOpeiR8jNAl0qcDx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p(data-aos="fade-left") Además, no se debe pasar por alto el análisis del mercado externo y su evolución, así como la diversidad de productos disponibles para el cliente y la probabilidad de crecimiento del mercado potencial. También es crucial considerar las tecnologías de la información y el nivel de seguridad de las transacciones digitales, ya que facilitan la adquisición de productos y eliminan barreras. Asimismo, es importante evaluar la probabilidad de expandir el mercado del proyecto, lo que implica la eliminación de intermediarios y el control del precio de los productos.
     p.mb-5(data-aos="fade-left") Este estudio establece el rumbo del proyecto de inversión, ya que si no se encuentran condiciones favorables en el estudio de mercado, no se continuará con la formulación del proyecto de inversión. En tal caso, se deberá abandonar la idea o reformularla para reiniciar este proceso.
@@ -562,7 +562,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/37.svg' alt='Imagen decoractiva')
       .col-lg-6.col-12
-        LineaTiempoD.color-acento-botones.mb-5
+        LineaTiempoD.color-acento-botones.especial.mb-5
           .row(numero="1" titulo="Costos de producción")
             .col-md-3.mb-3
               figure
@@ -597,21 +597,21 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/145.svg' alt='Imagen decorativa')
-        h2.text-center Precio de venta basado en costos: 
+        h4.text-center Precio de venta basado en costos: 
         p.text-center Define el precio de venta a partir de los costos de producción o comercialización teniendo en cuenta factores como la calidad, la exclusividad, entre otros.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #E1EFE3")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/146.svg' alt='Imagen decorativa')
-        h2.text-center Precio de venta basado en la demanda: 
+        h4.text-center Precio de venta basado en la demanda: 
         p.text-center Intervienen factores como el segmento de mercado, su reputación o estatus, así como el de la marca brindando confianza al consumidor.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/147.svg' alt='Imagen decorativa')
-        h2.text-center Precio de venta basado en la competencia: 
+        h4.text-center Precio de venta basado en la competencia: 
         p.text-center Definido a partir del precio de venta de los competidores o del mercado.
 
     
@@ -655,14 +655,14 @@
               figure
                 img(src='@/assets/curso/temas/tema1/148.svg', alt='')
             .col-lg-10.col-7
-              h4 Al por mayor
+              h5 Al por mayor
               p Es el precio de comercialización que asumen los minoristas para adquirir grandes cantidades de producto y luego vendar la mercancía por unidades a un mayor precio.
             hr
             .col-lg-2.col-5
               figure
                 img(src='@/assets/curso/temas/tema1/149.svg', alt='')
             .col-lg-10.col-7
-              h4 Al por menor
+              h5 Al por menor
               p Es el precio que cancela el consumidor final en los establecimientos minoristas por una o varias unidades de producto.
             hr
     
@@ -1035,7 +1035,7 @@
             img(src='@/assets/curso/temas/tema1/69.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h2 Globalización
+              h4 Globalización
               p En esta parte del análisis, se deberá reconocer los factores internacionales más influyentes y estudiar su efecto sobre las variables del proyecto, identificando si la presencia, posición y relevancia estratégica que poseen los competidores en mercados como Estados Unidos, la Unión Europea y Asia es significativa.
               p Lo anterior se debe analizar con minucias con el fin de establecer si se va a definir una oferta estandarizada o adaptada del producto e integrando la estrategia global, buscando su expansión a nuevas posibilidades de negocios.
 
@@ -1045,7 +1045,7 @@
             img(src='@/assets/curso/temas/tema1/70.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              h2 Efectos de la globalización
+              h4 Efectos de la globalización
               p Su objetivo está en el avance tecnológico y especialmente en reducir costos al tener la facilidad de mover bienes, servicios, dinero, talento humano e información de manera eficiente. 
               p Esta inmersión en mercado internacionales viene desarrollándose, pero la aceleración del fenómeno es precisamente la característica de este nuevo siglo, sumado a la aparición de la pandemia que en 2020 puso al mundo a prueba frente a todos estos retos que se vienen logrando en unidad de los siguientes aspectos: 
     .row.justify-content-center 
@@ -1107,7 +1107,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 Oportunidades
-              p.mb-0 Representan los aspectos que se encuentran en el medio y son favorables para el proyecto, como es el caso de la demanda insatisfecha, los incentivos gubernamentales por la actividad del proyecto, las ventajas comparativas sobre el resto de la industria, la experiencia de ejecución de proyectos similares, así como los stakeholders en el medio externo.
+              p.mb-0 Representan los aspectos que se encuentran en el medio y son favorables para el proyecto, como es el caso de la demanda insatisfecha, los incentivos gubernamentales por la actividad del proyecto, las ventajas comparativas sobre el resto de la industria, la experiencia de ejecución de proyectos similares, así como los <i>stakeholders</i> en el medio externo.
 
             
             .col-lg-5
@@ -1346,7 +1346,7 @@
                 img(src='@/assets/curso/temas/tema1/97.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul1
                 .p-4
-                  h4 Directa
+                  h5 Directa
                   p Es aquella donde se tienen un contacto directo con los elementos o caracteres en los cuales se presenta el fenómeno que se pretende investigar, y los resultados.
         .row.justify-content-center
           .col-lg-12
@@ -1355,7 +1355,7 @@
                 img(src='@/assets/curso/temas/tema1/98.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul2
                 .p-4
-                  h4 Indirecta
+                  h5 Indirecta
                   p Ocurre cuando el acto de observación requiere de la utilización de instrumentos apropiados para la captación de las características del fenómeno.
         .row.justify-content-center
           .col-lg-12
@@ -1364,7 +1364,7 @@
                 img(src='@/assets/curso/temas/tema1/99.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul1
                 .p-4
-                  h2 Participante
+                  h5 Participante
                   p Atañe a la observación que realiza el investigador de manera cercana a la realidad.
         .row.justify-content-center
           .col-lg-12
@@ -1373,7 +1373,7 @@
                 img(src='@/assets/curso/temas/tema1/100.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul2
                 .p-4
-                  h2 No participante
+                  h5 No participante
                   p Corresponde a la observación que se realiza por parte del investigador sin acercarse a la realidad.
           
         li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Entrevista
@@ -1452,35 +1452,35 @@
               figure
                 img(src='@/assets/curso/temas/tema1/150.svg', alt='')
             .col-lg-10.col-7
-              h4 Definir el problema:
+              h5 Definir el problema:
               p Previo a la convocatoria de los participantes del Focus Group se debe precisar que es lo que se va a evaluar.
             hr
             .col-lg-2.col-5
               figure
                 img(src='@/assets/curso/temas/tema1/151.svg', alt='')
             .col-lg-10.col-7
-              h4 Elegir a los participantes:
+              h5 Elegir a los participantes:
               p Una vez que se haya determinado el problema, se elige a los participantes; estos pueden ser obtenidos de una base de datos aleatoria.
             hr
             .col-lg-2.col-5
               figure
                 img(src='@/assets/curso/temas/tema1/152.svg', alt='')
             .col-lg-10.col-7
-              h4 Seleccionar al moderador:
+              h5 Seleccionar al moderador:
               p Esta persona debe estar consciente de todos los procesos y del estudio.
             hr
             .col-lg-2.col-5
               figure
                 img(src='@/assets/curso/temas/tema1/153.svg', alt='')
             .col-lg-10.col-7
-              h4 Planificar el diálogo:
+              h5 Planificar el diálogo:
               p Se debe informar a los participantes sobre el proceso del Focus Group, además del tiempo y recursos.
             hr
             .col-lg-2.col-5
               figure
                 img(src='@/assets/curso/temas/tema1/154.svg', alt='')
             .col-lg-10.col-7
-              h4 Resultados:
+              h5 Resultados:
               p Es importante que se grabe la sesión para obtener resultados más confiables.
             hr
 
@@ -1560,7 +1560,7 @@
               img(src='@/assets/curso/temas/tema1/119.svg' alt='AvatarTop')
               .tarjeta.color-secundario
                 .text-white.p-4
-                  h3.text-center La triangulación teórica
+                  h4.text-center La triangulación teórica
                   p Consiste en el uso de diferentes perspectivas o diferentes tópicos esenciales en la información analizada.
 
           .col-md-6.col-lg.mb-5.mb-lg-0
@@ -1568,7 +1568,7 @@
               img(src='@/assets/curso/temas/tema1/120.svg' alt='AvatarTop')
               .tarjeta(style="background-color: #E1EFE3")
                 .p-4
-                  h3.text-center La triangulación metodológica
+                  h4.text-center La triangulación metodológica
                   p Consiste en la combinación de dos o más resultados de recolecciones de datos con similitudes aproximadas en el mismo estudio.
 
     p(data-aos="fade-left") Cada estudio se debe codificar y analizar separadamente para luego compararlos con el fin de validarlos y luego se comparan como una manera de validar los hallazgos. Todo este proceso es indispensable cuando la información hallada es suficiente o muy amplia, con el fin de controlar el sesgo personal de los investigadores y cubrir deficiencias intrínsecas de un investigador o de una teoría o de un método de estudio y de esta manera confirmar la validez de los resultados.
