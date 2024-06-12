@@ -18,7 +18,39 @@
             br
     p.mb-5(data-aos="fade-left") En el estudio de mercado se establecen numerosos costos de operación, anticipándose a través de simulaciones de situaciones futuras y definiendo políticas y procedimientos como parte de la estrategia comercial. Se adopta este enfoque porque hay aspectos que pueden quedar fuera del análisis general del estudio de mercado. Al llegar a la puesta en marcha del proyecto, estos vacíos pueden representar desafíos significativos para la ejecución presupuestaria. Estos aspectos incluyen:
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.p-4(style="background-color:#E1EFE3; width: 100%; height: 100%")
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema1/142.svg', alt='Imagen decorativa')
+
+          h3.text-center La estrategia publicitaria
+          p.text-small La cual tiene una fuerte repercusión en la inversión.
+    
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.p-4(style="background-color:#E1EFE3; width: 100%; height: 100%")
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema1/143.svg', alt='Imagen decorativa')
+
+          h3.text-center La estrategia de promoción
+          p.text-small Antes de la puesta en marcha.
+          
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.p-4(style="background-color:#E1EFE3; width: 100%; height: 100%")
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema1/144.svg', alt='Imagen decorativa')
+
+          h3.text-center La política de distribución del producto
+          p.text-small Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
+    
+    
+    //-.row.mb-5
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-4
@@ -29,14 +61,14 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #E1EFE3")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/142.svg' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/143.svg' alt='Imagen decorativa')
         h4.text-center La estrategia de promoción
         p.text-center Antes de la puesta en marcha.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/142.svg' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/144.svg' alt='Imagen decorativa')
         h4.text-center La política de distribución del producto
         p.text-center Garantizando su cantidad y calidad de acuerdo con los canales seleccionados lo cual influirá en el flujo de caja.
 
@@ -211,6 +243,7 @@
     p(data-aos="fade-left") Además, no se debe pasar por alto el análisis del mercado externo y su evolución, así como la diversidad de productos disponibles para el cliente y la probabilidad de crecimiento del mercado potencial. También es crucial considerar las tecnologías de la información y el nivel de seguridad de las transacciones digitales, ya que facilitan la adquisición de productos y eliminan barreras. Asimismo, es importante evaluar la probabilidad de expandir el mercado del proyecto, lo que implica la eliminación de intermediarios y el control del precio de los productos.
     p.mb-5(data-aos="fade-left") Este estudio establece el rumbo del proyecto de inversión, ya que si no se encuentran condiciones favorables en el estudio de mercado, no se continuará con la formulación del proyecto de inversión. En tal caso, se deberá abandonar la idea o reformularla para reiniciar este proceso.
 
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Objetivos del estudio de mercado
     
@@ -261,6 +294,7 @@
             li 
               i.fas.fa-check
               | Preparar a la empresa para los retos y riesgos que asume con las decisiones a implementar.
+    separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Objetivos del estudio de mercado
     .row.justify-content-center.mb-5
@@ -815,7 +849,7 @@
         p(data-aos="fade-left") Con el fin de que el estudio de mercado tenga validez, se hace necesario realizar análisis complementarios para definir la viabilidad del proyecto de inversión por lo que este análisis se concentra en distintos aspectos de vital importancia a precisar cómo los distintos mercados, variables externas que hacen influencia. Veamos la siguiente información al respecto:
 
     .row.justify-content-center.mb-5
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris1")
+      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
         .row(titulo="Agentes económicos del mercado")
           .col-md-6.mb-4.mb-md-0
             p La dinámica de los diferentes agentes económicos del mercado marca la pauta en la composición del mercado y su desarrollo independiente hace muy complicado el pronóstico de su desarrollo y sus efectos sobre las estrategias del proyecto, de los competidores, consumidores, proveedores y canales de distribución, por lo que se hace necesario el análisis de sensibilidad o variación del proyecto en aspectos específicos que se verán notablemente en el flujo de caja.
@@ -1144,6 +1178,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/78.png", style="width: 450px" ,alt='').m-auto
     
+    separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Instrumentos
 
@@ -1583,47 +1618,87 @@
         p(data-aos="fade-left") Llamadas también #[i Insight Community] herramienta que utilizan las organizaciones que poseen su marca con el fin de realizar investigación con un grupo de personas de interés de la marca con el fin de conocer sus comentarios, observaciones y sugerencias por lo cual es necesario mantener una audiencia en contacto a través de foros, encuestas y sondeos.
         p(data-aos="fade-left") Este instrumento es muy valorado por las empresas pues a través de ellas las organizaciones encuentran información inmediata lo cual les permite conocer el amplio conocimiento que poseen los participantes. Existen diferentes tipos de comunidades #[i online], veamos:
 
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-small Comunidades de marca 
-              p.text-small En este tipo de comunidad se vinculan personas que aman la marca y quieren contribuir con sus aportes para su retroalimentación, estos tipos de participantes son considerados la población objetivo, son leales lo que hace que sus aportes sean valiosos porque corresponden a la realidad debido a su sinceridad.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/122.svg')})`}")
+    .col.desktop
+      .row.mb-5
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades de marca 
+                p.text-small En este tipo de comunidad se vinculan personas que aman la marca y quieren contribuir con sus aportes para su retroalimentación, estos tipos de participantes son considerados la población objetivo, son leales lo que hace que sus aportes sean valiosos porque corresponden a la realidad debido a su sinceridad.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/122.svg')})`}")
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-small Comunidades temáticas o de nichos
-              p.text-small Son comunidades que buscan información de manera gratuita por tanto no necesariamente pertenecen a una marca, sino que su enfoque son temas específicos atractivos para ciertos públicos, los cuales pueden ser ofrecidos a industrias específicas interesadas en ese tema especialmente.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/123.svg')})`}")
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades temáticas o de nichos
+                p.text-small Son comunidades que buscan información de manera gratuita por tanto no necesariamente pertenecen a una marca, sino que su enfoque son temas específicos atractivos para ciertos públicos, los cuales pueden ser ofrecidos a industrias específicas interesadas en ese tema especialmente.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/123.svg')})`}")
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-small Comunidades genéricas
-              p.text-small Está integrada por personas con diversos perfiles que participan en diferentes áreas, dependiendo el perfil profesional o personal que requiera la investigación. Aquí se utilizan encuestas para perfilar y segmentar los participantes en estudios específicos.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/124.svg')})`}")
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades genéricas
+                p.text-small Está integrada por personas con diversos perfiles que participan en diferentes áreas, dependiendo el perfil profesional o personal que requiera la investigación. Aquí se utilizan encuestas para perfilar y segmentar los participantes en estudios específicos.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/124.svg')})`}")
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-small Comunidades de clientes
-              p.text-small Esta comunidad integrada por clientes de la marca que participan en diferentes actividades como fotos o lluvias de ideas sobre nuevos productos y servicios.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/125.svg')})`}")
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades de clientes
+                p.text-small Esta comunidad integrada por clientes de la marca que participan en diferentes actividades como fotos o lluvias de ideas sobre nuevos productos y servicios.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/125.svg')})`}")
+
+    .col.movil
+      .row.mb-5.justify-content-center
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-11
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor.p-5
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades de marca 
+                p.text-small En este tipo de comunidad se vinculan personas que aman la marca y quieren contribuir con sus aportes para su retroalimentación, estos tipos de participantes son considerados la población objetivo, son leales lo que hace que sus aportes sean valiosos porque corresponden a la realidad debido a su sinceridad.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/122.svg')})`}")
+
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-11
+          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor.p-5
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades temáticas o de nichos
+                p.text-small Son comunidades que buscan información de manera gratuita por tanto no necesariamente pertenecen a una marca, sino que su enfoque son temas específicos atractivos para ciertos públicos, los cuales pueden ser ofrecidos a industrias específicas interesadas en ese tema especialmente.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/123.svg')})`}")
+
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-11
+          .tarjeta.tarjeta-slide.arriba.p-2(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor.p-5
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades genéricas
+                p.text-small Está integrada por personas con diversos perfiles que participan en diferentes áreas, dependiendo el perfil profesional o personal que requiera la investigación. Aquí se utilizan encuestas para perfilar y segmentar los participantes en estudios específicos.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/124.svg')})`}")
+
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.col-11
+          .tarjeta.tarjeta-slide.arriba.p-4(@mouseover="indicadorTarjetaSlide = false")(style="background-color: #DBE5F3")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor.p-5
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4.text-small Comunidades de clientes
+                p.text-small Esta comunidad integrada por clientes de la marca que participan en diferentes actividades como fotos o lluvias de ideas sobre nuevos productos y servicios.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/125.svg')})`}")
 
     .row.justify-content-center.mb-3
       p(data-aos="fade-left") Las comunidades #[i online] son una inversión productiva para las empresas porque generan un espacio adecuado para recolectar información al instante y generan relaciones más estrechas que logran llegar a la fidelidad.
       p(data-aos="fade-left") Sin embargo, es de resaltar que, de las técnicas e instrumentos de recolección de información más apropiadas para un estudio de mercado, se han encontrado los instrumentos: el Método Delphi y el Focus Group. 
 
+    Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Segmentación
     p.mb-4(data-aos="fade-left") Definir el consumidor individual sustenta la necesidad de los estudios de mercado de acudir a técnicas de investigación etnográficas; es decir, al análisis del comportamiento del cliente en su contexto, donde lo importante no es lo que las personas manifiestan o dicen sino lo que realmente realizan.
@@ -1705,7 +1780,7 @@
     p.mb-4(data-aos="fade-left") El término segmentación del mercado es más utilizado en lo referente a indagar acerca de la población a la que se dedicará el proyecto, bien sea con la oferta de un producto o servicio, por esa razón se suele pensar que es única, pero se han definido los diferentes tipos de segmentación que se presentan a continuación:
 
     .row.justify-content-center.mb-5
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris1")
+      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
         .row(titulo="La segmentación por producto")
           .col-md-6.mb-4.mb-md-0
             p Consiste en desarrollar un producto que con sus atributos logre satisfacer las necesidades de este segmento.
