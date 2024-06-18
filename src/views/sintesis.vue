@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que contiene un esquema que resume la temática desarrollada durante este componente formativo, la cual hace mención que el estudio de mercado tiene un proceso de elaboración, instrumentos y segmentación; además, dentro de su estructura contiene objetivos, variables de análisis, estrategia comercial y un análisis del mercado.")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
