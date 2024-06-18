@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="1334.704" viewBox="0 0 1328 1334.704">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_291117" data-name="Rectangle 291117" width="1328" height="1334.704" transform="translate(0 0)" fill="#eff6f0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_1072951" data-name="Group 1072951" transform="translate(-136 -9654.729)">
+    <g id="Group_870471" data-name="Group 870471" transform="translate(136 9654.729)">
+      <g id="Group_870469" data-name="Group 870469" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_291116" data-name="Rectangle 291116" width="1328" height="1334.704" transform="translate(0 0)" fill="#eff6f0"/>
+      </g>
+    </g>
+    <rect id="Rectangle_291118" data-name="Rectangle 291118" width="1328" height="101" transform="translate(136 9654.729)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_291119" data-name="Rectangle 291119" width="1328" height="101" transform="translate(136 10888.434)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
