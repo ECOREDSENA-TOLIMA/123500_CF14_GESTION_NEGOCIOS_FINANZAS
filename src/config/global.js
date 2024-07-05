@@ -144,7 +144,7 @@ export default {
     {
       termino: 'B2B',
       significado:
-        'Modelo de negocio que consiste en los servicios que una compañía entrega a otra con el objetivo de mejorar las ventas',
+        'Modelo de negocio que consiste en los servicios que una compañía entrega a otra con el objetivo de mejorar las ventas.',
     },
     {
       termino: 'B2C',
@@ -254,7 +254,7 @@ export default {
         {
           nombre: 'Gloria Alexandra OrejarenaBarrios',
           cargo: 'Diseño Instruccional',
-          centro: 'Regional Distro Capital - Centro de Gestión Industrial',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',

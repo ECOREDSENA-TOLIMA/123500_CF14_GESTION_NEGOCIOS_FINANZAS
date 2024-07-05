@@ -245,7 +245,7 @@
 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Objetivos del estudio de mercado
+      h2 1.1 Objetivos
     
     .row.justify-content-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -296,7 +296,7 @@
               | Preparar a la empresa para los retos y riesgos que asume con las decisiones a implementar.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Objetivos del estudio de mercado
+      h2 1.2 Variables de análisis
     .row.justify-content-center.mb-5
       .col-lg-7.col-12
         p(data-aos="fade-left") Al diseñar la estrategia comercial, es pertinente evaluar una diversidad de factores externos que influyen sobre la evolución de los distintos mercados del proyecto. Estas variables son en general externas y por tanto incontrolables por la organización, pero valoradas minuciosamente aportarán a detectar las amenazas, oportunidades y los <i>stakeholders</i> existentes en el entorno.
@@ -347,7 +347,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 Factores tecnológicos
-              p.mb-0 La tecnología es parte del cotidiano de las personas y en las empresas se convirtió en un aliado estratégico que permite generar mayores ideas innovadoras, brindando soporte en procesos productivos y administrativos e invenciones haciendo que la comercialización haya sido transformada a un click. La tecnología es impulsora de la aparición de nuevos bienes y de las nuevas formas de mercadeo, siendo hoy la principal razón para que otros productos y mercados decaigan o queden rezagados hasta su desaparición. Es un nuevo horizonte que facilita el intercambio de información más compleja y el desarrollo de producto más inteligentes o con mayores valores agregados para los usuarios.
+              p.mb-0 La tecnología es parte del cotidiano de las personas y en las empresas se convirtió en un aliado estratégico que permite generar mayores ideas innovadoras, brindando soporte en procesos productivos y administrativos e invenciones haciendo que la comercialización haya sido transformada a un clic. La tecnología es impulsora de la aparición de nuevos bienes y de las nuevas formas de mercadeo, siendo hoy la principal razón para que otros productos y mercados decaigan o queden rezagados hasta su desaparición. Es un nuevo horizonte que facilita el intercambio de información más compleja y el desarrollo de producto más inteligentes o con mayores valores agregados para los usuarios.
             
             .col-lg-5
               figure
@@ -383,9 +383,9 @@
           h5 Figura 1.
           span <i>Marketing Mix - 4 P´s</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/19.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/19.svg' alt='Imagen que relaciona los cuatro aspectos que caracterizan el Marketing Mix - 4 P´s, los cuales son: Producto Precio Promoción Distribución')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/20.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/20.svg' alt='Imagen que relaciona los cuatro aspectos que caracterizan el Marketing Mix - 4 P´s, los cuales son: Producto Precio Promoción Distribución')
     
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Ciclo del producto
@@ -394,7 +394,7 @@
       .h4.mb-0.mx-3(style="color: #0C5E46") Ciclo del producto
       .col-lg-4.bg-color-3.px-4.py-3
     
-    p(data-aos="fade-left") Lo estudios de mercado son una herramienta fundamental para la toma de decisiones y de acuerdo con la etapa en que se encuentra la empresa, así mismo será el tipo de investigación que se debe realizar, sin olvidar la necesidad y por ende la importancia de que la empresa indague en el mercado sobre las tendencias, preferencias, gustos, formas de compra o adquisición de servicios y productos, entre otras. Basado en esto, a continuación, se presentan los estudios de mercado conforme a la etapa de crecimiento en que se encuentra la empresa:
+    p(data-aos="fade-left") Los estudios de mercado son una herramienta fundamental para la toma de decisiones y de acuerdo con la etapa en que se encuentra la empresa, así mismo será el tipo de investigación que se debe realizar, sin olvidar la necesidad y por ende la importancia de que la empresa indague en el mercado sobre las tendencias, preferencias, gustos, formas de compra o adquisición de servicios y productos, entre otras. Basado en esto, a continuación, se presentan los estudios de mercado conforme a la etapa de crecimiento en que se encuentra la empresa:
                 
     .row.justify-content-center
       .col-lg-8.col-12.mb-5
@@ -402,9 +402,9 @@
           h5 Figura 2.
           span <i>Ciclo de vida del producto</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/21.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/21.svg' alt='Imagen que relaciona el ciclo de vida de un producto. el cual tiene que ver con las ventas y el tiempo y abarca aspectos como introducción, crecimiento, madurez y declive. ')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/21_.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/21_.svg' alt='Imagen que relaciona el ciclo de vida de un producto. el cual tiene que ver con las ventas y el tiempo y abarca aspectos como introducción, crecimiento, madurez y declive. ')
     p.mb-5(data-aos="fade-left") De acuerdo con la figura anterior, se identifican cuatro fases que conforman el ciclo de producto. A continuación, se presenta la manera en que se podría llevar a cabo la investigación de mercado en cada una de ellas:
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
@@ -895,7 +895,7 @@
               ul.lista-ul
                 li 
                   i.fas.fa-angle-right
-                  | Proveedores de materias primas e insumos
+                  | Proveedores de materias primas e insumos.
                 li 
                   i.fas.fa-angle-right
                   | Proveedores de servicios, como aseo, seguridad, logística, bodegaje.
@@ -922,7 +922,7 @@
         .row(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
             h4 Poder de negociación de los clientes
-            p Siempre existirán varias alternativas de solución, lo crucial de este estudio es elegir la más apropiada pues de esto depende el rumbo a seguir de la organización, así como los efectos de su implementación.
+            p La capacidad de mantener contacto con los clientes informándoles acerca de los cambios en materias primas, de las variaciones en producción y de la necesidad de actualizar el producto, es una estrategia que genera al cliente esa cercanía con la empresa y le genera confianza al tomar decisiones de compra y preferir el producto a pesar de los incrementos de precio.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/55.svg', alt='Imagen decorativa')
@@ -984,9 +984,9 @@
           h5 Figura 3.
           span <i>Las 5 fuerzas de Porter</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/61.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/61.svg' alt='Imagen que explica en qué consiste cada aspecto que hace parte de las 5 fuerzas de Porter, los cuales son: 1. Nuevos entrantes 2. Proveedores 3. Clientes 4. Productos sustitutos 5. Rivalidad de la industria.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/62.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/62.svg' alt='Imagen que explica en qué consiste cada aspecto que hace parte de las 5 fuerzas de Porter, los cuales son: 1. Nuevos entrantes 2. Proveedores 3. Clientes 4. Productos sustitutos 5. Rivalidad de la industria.')
     
 
     .h4.mb-4(data-aos="zoom-down-right")
@@ -996,7 +996,7 @@
       .col-lg-8.col-12
         p(data-aos="fade-left") Comprendido por las organizaciones que comercializan productos con alto grado de semejanza a los ofertados por el proyecto, así como su táctica o estrategia comercial, también es necesario reconocer las tácticas de comercialización y canales utilizados por la competencia en cuanto al consumidor. 
         .cajon.p-4.mb-3(style="background-color: #E1EFE3")
-          p Cada experiencia que se identifique es de vital importancia para la definición de la estrategia comercial propia, entre los antecedentes es muy favorable identificar precio de venta, políticas de ventas y crédito, política de descuento por pronto pago, la política de promoción y publicidad, situación financiera, estrategias implementadas como nivel de integración vertical, alianzas estratégicas y el holding al cual pertenecen, facilitará la determinación las variables para el proyecto.
+          p Cada experiencia que se identifique es de vital importancia para la definición de la estrategia comercial propia, entre los antecedentes es muy favorable identificar precio de venta, políticas de ventas y crédito, política de descuento por pronto pago, la política de promoción y publicidad, situación financiera, estrategias implementadas como nivel de integración vertical, alianzas estratégicas y el <i>holding</i> al cual pertenecen, facilitará la determinación las variables para el proyecto.
       .col-lg-4.col-md-8.col-10
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/63.png', alt='Imagen decorativa')
@@ -1207,6 +1207,9 @@
           
         h2.text-center La investigación secundaria 
         p Se utiliza a partir de registros o estudios históricos, en este tipo de estudio se ahorra tiempo y dinero porque no se aplican instrumentos, acude a fuentes veraces como la Cámara de Comercio, el Ministerio de Comercio, Industria y Turismo (MINCIT), de gremios, investigaciones de universidades, entre otros para el análisis, manejo, gestión y consolidación de nuevas conclusiones.
+    
+    .row.justify-content-center 
+      p La función primordial de los instrumentos de recolección de información es el registro de los fenómenos empíricos, quedando registrados a través de la aplicación del instrumento utilizado, el cual permite obtener información precisa, si ha sido diseñado de manera adecuada y pertinente. A continuación, se presentan algunos ítems importantes para la validez de la información recolectada a través de los diferentes instrumentos utilizados en el estudio de mercado:
 
     .tarjeta.tarjeta--gris1.p-4.mb-5
       PasosB.color-primario
@@ -1279,9 +1282,9 @@
           h5 Figura 4.
           span <i>Técnica e instrumentos de recolección de información</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/91.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/91.svg' alt='Imagen que relaciona las técnicas para recolectar de información y su respectivo instrumento.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/92.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/92.svg' alt='Imagen que relaciona las técnicas para recolectar de información y su respectivo instrumento.')
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Tipos de instrumentos empleados en el estudio de mercados
@@ -1345,7 +1348,7 @@
                   | Documentos de archivo y fuentes gubernamentales.
                 li 
                   i.fas.fa-check
-                  | Focus groups presenciales y #[i online].
+                  | <i>Focus groups</i> presenciales y <i>online</i>.
                 li 
                   i.fas.fa-check
                   | Comunidades #[i online].
@@ -1474,7 +1477,7 @@
                 img(src='@/assets/curso/temas/tema1/113.svg' alt='AvatarTop')
             p.text-center d) Elaboración y aplicación del presupuesto, y confirmación de resultados.
         
-        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") Focus Group
+        li.text-bold.mb-4(style="color: #0C5E46")(data-aos="zoom-in-down") <i>Focus Group</i>
 
         p(data-aos="fade-left") Es una técnica cualitativa de recolección de datos. Consiste en realizar una entrevista en grupo con el objetivo de recoger información sobre un número específico de preguntas. Es muy útil para recoger información de manera inmediata y espontánea bajo la instrucción de un moderador el cual socializa la herramienta y presente el objetivo de su aplicación.
         p.mb-5(data-aos="fade-left") Consiste en un conversatorio que se realiza alrededor de un tema planteado por el investigador. La manera en la que se desarrolla la conversación se rige por medio de la rotación de turnos para participar. Se utiliza mayormente para realizar una investigación de mercado, se basa en enfocar un objeto e investigarlo; se realiza con un grupo de personas interactuando y compartiendo ideas sobre el producto a evaluar. Busca realizarse siguiendo los siguientes pasos:
@@ -1488,7 +1491,7 @@
                 img(src='@/assets/curso/temas/tema1/150.svg', alt='')
             .col-lg-10.col-7
               h5 Definir el problema:
-              p Previo a la convocatoria de los participantes del Focus Group se debe precisar que es lo que se va a evaluar.
+              p Previo a la convocatoria de los participantes del <i>Focus Group</i> se debe precisar que es lo que se va a evaluar.
             hr
             .col-lg-2.col-5
               figure
@@ -1509,7 +1512,7 @@
                 img(src='@/assets/curso/temas/tema1/153.svg', alt='')
             .col-lg-10.col-7
               h5 Planificar el diálogo:
-              p Se debe informar a los participantes sobre el proceso del Focus Group, además del tiempo y recursos.
+              p Se debe informar a los participantes sobre el proceso del <i>Focus Group</i>, además del tiempo y recursos.
             hr
             .col-lg-2.col-5
               figure
@@ -1579,9 +1582,9 @@
           h5 Figura 5.
           span <i>Tipos de categorías</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/117.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/117.svg' alt='Imagen que relaciona un esquema que representa los tres tipos de categorías: deductivas o apriorísticas, inductivas o emergentes y abductiva.')
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/118.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/118.svg' alt='Imagen que relaciona un esquema que representa los tres tipos de categorías: deductivas o apriorísticas, inductivas o emergentes y abductiva.')
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas(style="color: #0C5E46") Triangulación
@@ -1696,7 +1699,7 @@
 
     .row.justify-content-center.mb-3
       p(data-aos="fade-left") Las comunidades #[i online] son una inversión productiva para las empresas porque generan un espacio adecuado para recolectar información al instante y generan relaciones más estrechas que logran llegar a la fidelidad.
-      p(data-aos="fade-left") Sin embargo, es de resaltar que, de las técnicas e instrumentos de recolección de información más apropiadas para un estudio de mercado, se han encontrado los instrumentos: el Método Delphi y el Focus Group. 
+      p(data-aos="fade-left") Sin embargo, es de resaltar que, de las técnicas e instrumentos de recolección de información más apropiadas para un estudio de mercado, se han encontrado los instrumentos: el Método Delphi y el <i>Focus Group</i>. 
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -1772,10 +1775,10 @@
           h5 Figura 6.
           span <i>Formas de segmentar el mercado</i> 
         figure.desktop(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/131.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/131.svg' alt='Imagen que relaciona las siguientes formas de segmentar el mercado: forma de pago, lugar de compra, producto, comportamiento de compra, usos del producto, beneficios del producto, categorías demográficas.')
           figcaption Nota.  https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69104
         figure.movil(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/132.svg' alt='PENDIENTE TEXTO ALT')
+          img(src='@/assets/curso/temas/tema1/132.svg' alt='Imagen que relaciona las siguientes formas de segmentar el mercado: forma de pago, lugar de compra, producto, comportamiento de compra, usos del producto, beneficios del producto, categorías demográficas.')
           figcaption Nota.  https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69104
     p.mb-4(data-aos="fade-left") El término segmentación del mercado es más utilizado en lo referente a indagar acerca de la población a la que se dedicará el proyecto, bien sea con la oferta de un producto o servicio, por esa razón se suele pensar que es única, pero se han definido los diferentes tipos de segmentación que se presentan a continuación:
 
